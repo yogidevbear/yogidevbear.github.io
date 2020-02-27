@@ -5,10 +5,12 @@ import Highlight from 'react-highlight'
 
 export default () => (
   <div>
-    <PostHeader headerImageUrl="simon-matzinger-twukN12EN7c-unsplash.jpg"
-                title="Clojure Coding Dojo"
-                attributionName="Simon Matzinger"
-                attributionUrl="https://unsplash.com/@8moments?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" />
+    <PostHeader headerImageUrl="andrew-neel-explore-flag-unsplash.jpg"
+                attributionName="Andrew Neel"
+                attributionUrl="https://unsplash.com/@andrewtneel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" />
+
+    <h1 class="blogHeading">Clojure Coding Dojo</h1>
+    <small>21 February, 2020</small>
 
     <h2>Setting the backdrop</h2>
 
