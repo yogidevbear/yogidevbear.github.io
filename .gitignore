@@ -1,0 +1,16 @@
+_site/
+.jekyll-metadata
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+
+startup.bat
+
+.sass-cache/*
+node_modules/*
+bower_components/*
