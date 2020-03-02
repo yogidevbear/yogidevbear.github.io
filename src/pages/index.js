@@ -5,7 +5,7 @@ import Highlight from 'react-highlight'
 export default () => (
   <div>
     <div id="welcome">
-      <img src="https://en.gravatar.com/userimage/28779972/3e6a7d7b8c93e174be131d8c31d40cb0.jpg?size=150" alt="yogidevbear gravatar image" class="gravatar" />
+      <img src="https://en.gravatar.com/userimage/28779972/39fd5d143310e13538b4400c6d30252e.jpg?size=150" alt="yogidevbear gravatar image" class="gravatar" />
       <h1>Welcome to my website</h1>
       <span>I'm a software engineer with more than a decade of experience in various industries and technologies. I enjoy working across the stack, but my primary focus area is probably server side coding and working with databases. I am very greatful to be working as a software engineer as there is always something new to learn each day. Check me out on various other platforms listed in my footer below.</span>
     </div>

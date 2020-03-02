@@ -60,7 +60,7 @@ h1.blogHeading {
 }
 
 #welcome {
-  background-image: url(/img/ryan-hutton-Jztmx9yqjBw-unsplash.jpg);
+  background-image: url(/img/ryan-hutton-Jztmx9yqjBw-unsplash-1600x900.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -116,17 +116,42 @@ div.file-name + pre {
   margin-top: 0;
 }
 
-@media screen and (min-width: 800px) {
+div.cardsList {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em 1em;
+  grid-auto-rows: minmax(250px, auto);
+  margin-bottom: 2em;
+}
+
+div.cardsList div.card {
+  box-shadow: 0px 5px 5px #cccccc;
+  max-width: 420px;
+}
+
+div.cardsList div.card div.cardDetails {
+  margin: 0.5em;
+}
+
+@media screen and (min-width: 450px) {
+
+  div.cardsList {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media screen and (min-width: 830px) {
 
   .content {
+    max-width: 800px;
     padding: 1rem;
-    margin:0 20%;
+    margin:0 auto;
     box-shadow: 0px 15px 15px #cccccc;
   }
 
-  #welcome {
-    font-size: 2em;
-    padding: 100px;
+  div.cardsList {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
 }

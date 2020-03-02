@@ -7,27 +7,25 @@ export default function Blog() {
   const { posts } = useRouteData()
   return (
     <div>
-      <h1>It's blog time.</h1>
-      <div>
-        <a href="#bottom" id="top">
-          Scroll to bottom!
-        </a>
-      </div>
-      <br />
+      <h1>Blog</h1>
       All Posts:
-      <ul>
-        <li key="post_clojure-coding-dojo">
-          <Link to={`/blog/post/clojure-coding-dojo/`}>Clojure Coding Dojo</Link>
-        </li>
+      <div class="cardsList">
+        <div class="card" key="post_clojure-coding-dojo">
+          <Link to={`/blog/post/clojure-coding-dojo/`}>
+            <img src="/img/andrew-neel-explore-flag-unsplash-420x280.jpg" alt="Exlore flag" />
+          </Link>
+          <div class="cardDetails">
+            <Link to={`/blog/post/clojure-coding-dojo/`} >Clojure Coding Dojo</Link>
+            <p>Foo bar something bing bish bash bosh...</p>
+          </div>
+        </div>
         {/* {posts.map(post => (
           <li key={post.id}>
             <Link to={`/blog/post/${post.id}/`}>{post.title}</Link>
           </li>
         ))} */}
-      </ul>
-      <a href="#top" id="bottom">
-        Scroll to top!
-      </a>
+      </div>
+      <a href="#top" id="bottom">Scroll to top</a>
     </div>
   )
 }
