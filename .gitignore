@@ -1,5 +1,8 @@
-_site/
-.jekyll-metadata
+artifacts/
+dist/
+tmp/
+
+package-lock.json
 
 Thumbs.db
 .DS_Store
